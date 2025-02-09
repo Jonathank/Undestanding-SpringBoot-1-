@@ -12,6 +12,10 @@ public class SpringBootLearning1Application {
 	
 		MyFirstService fservice = ctx.getBean(MyFirstService.class);
 		System.out.println(fservice.tellStory());
+		System.out.println(fservice.getJavaVersion());
+		System.out.println(fservice.getOperatingSystemName());
+		System.out.println(fservice.getReadFromcustomPropertyFile());
+		System.out.println(fservice.getReadFromcustomPropertyFile2());
 	}
 	
 
