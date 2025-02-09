@@ -18,7 +18,6 @@ public class SpringBootLearning1Application {
 		System.out.println(fservice.getReadFromcustomPropertyFile2());
 	}
 	
-
 	//we could define abean from here or at class level with annotations like @Component
 //    @Bean
 //    MyFirstClass myFirstClass() {

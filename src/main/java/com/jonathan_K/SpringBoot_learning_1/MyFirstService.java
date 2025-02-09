@@ -22,6 +22,7 @@ import org.springframework.stereotype.Service;
 })
 public class MyFirstService {
 
+    //read from custom files .properties
     @Value("${my.prop}")
     private String readFromcustomPropertyFile;
    //
