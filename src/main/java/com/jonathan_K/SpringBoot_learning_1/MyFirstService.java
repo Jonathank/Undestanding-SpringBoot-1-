@@ -18,7 +18,7 @@ public class MyFirstService {
      * @param myfirstclass
      */
     //@Autowired
-    public MyFirstService(@Qualifier("bean2")MyFirstClass myfirstclass) {
+    public MyFirstService(MyFirstClass myfirstclass) {
 	
 	this.myfirstclass = myfirstclass;
     }
